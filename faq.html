@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Frequently Asked Questions | ELECTRANS</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <div class="container">
+      <a class="logo" href="index.html"><span class="logo-mark" aria-hidden="true"></span>ELECTRANS</a>
+      <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="site-nav" onclick="var n=document.getElementById('site-nav');var o=n.classList.toggle('open');this.setAttribute('aria-expanded',o)">Menu</button>
+      <nav id="site-nav" aria-label="Main">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="panel.html">The Panel</a></li>
+          <li><a href="how-to-submit.html">How to Submit</a></li>
+          <li><a href="faq.html" class="active" aria-current="page">FAQ</a></li>
+          <li><a href="news.html">News</a></li>
+          <li><a href="contact.html">Contact Us</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <div class="page-title">
+    <div class="container">
+      <p class="eyebrow">FAQ</p><h1>Frequently Asked Questions</h1>
+    </div>
+  </div>
+
+  <main>
+    <div class="container">
+      <div class="faq-layout">
+        <aside class="faq-toc">
+          <p>Sections</p>
+          <ul>
+            <li><a href="#getting-started">Eligibility and funding</a></li>
+            <li><a href="#preparing">Preparing your proposal</a></li>
+            <li><a href="#submitting">Deadlines, submission, and decisions</a></li>
+            <li><a href="#design">Survey design</a></li>
+            <li><a href="#ethics">Ethics and consent</a></li>
+          </ul>
+          <div class="faq-tools"><button type="button" onclick="document.querySelectorAll('details').forEach(function(d){d.open=true})">Expand all</button><button type="button" onclick="document.querySelectorAll('details').forEach(function(d){d.open=false})">Collapse all</button></div>
+        </aside>
+        <div>
+        <section class="faq-group" id="getting-started">
+          <h2>Eligibility and funding</h2>
+          <details>
+            <summary>Who is eligible?</summary>
+          <p>We welcome applications from everyone regardless of their status and nationality or where they&rsquo;re based.</p>
+          </details>
+          <details>
+            <summary>How is ELECTRANS funded?</summary>
+          <p>ELECTRANS is a research project funded by the French National Research Agency (ANR).</p>
+          </details>
+          <details>
+            <summary>Can I submit more than one proposal at a time?</summary>
+          <p>Yes. You may submit more than one proposal; each one will be considered on its own merits.</p>
+          </details>
+        </section>
+        <section class="faq-group" id="preparing">
+          <h2>Preparing your proposal</h2>
+          <details>
+            <summary>What does a successful proposal look like?</summary>
+          <p>The successful proposal:</p>
+          <ol>
+            <li><strong>Asks a clear research question.</strong><br>Applicants should explain what they seek to learn with the proposed questions and design.</li>
+            <li><strong>Makes a substantive scientific contribution.</strong><br>The proposed questions should help advance knowledge rather than simply collect descriptive information of narrow interest.</li>
+            <li><strong>Makes good use of the ELECTRANS infrastructure.</strong><br>Priority may be given to questions that particularly benefit from being fielded during an election campaign, from repeated observations of the same respondents, from a large national sample, or from linkage with other ELECTRANS measures.</li>
+            <li><strong>Uses questionnaire space efficiently.</strong><br>Survey time is a scarce collective resource. Applicants should request only the number of questions necessary to answer their research question.</li>
+            <li><strong>Is methodologically well specified.</strong><br>The proposal should provide the exact wording of all proposed questions, response options, randomization procedures, stimuli, and routing instructions necessary to understand the design.</li>
+            <li><strong>Is feasible and ethically appropriate.</strong><br>Questions must be compatible with the technical, legal, ethical, and data-protection requirements governing survey research in political science.</li>
+            <li><strong>Refers to the relevant literature using a detailed bibliography.</strong></li>
+          </ol>
+          <p>For survey items that are central to your project, we encourage you to address the following questions in your proposal:</p>
+          <ul>
+            <li>What is the underlying concept this item seeks to measure?</li>
+            <li>Why do you want to study this concept?</li>
+            <li>What is your preferred wording? [Please indicate any possible alternative wording. If the concept requires a battery of questions, please specify the proposed battery.]</li>
+            <li>What response options would you use?</li>
+            <li>Are there precedents for this wording? For example, has it been used in CEVIPOF surveys, in comparative surveys from other countries (CSES, ESS, etc.), or in national surveys such as the ANES?</li>
+            <li>What distribution of responses do you expect? [Please provide any existing results for France or a relevant benchmark country.]</li>
+          </ul>
+          </details>
+          <details>
+            <summary>How long can my proposal be?</summary>
+          <p>Proposals are limited to five pages of text (including footnotes/endnotes), plus references, up to two pages of tables, and the actual survey items to be included (not included in the page count).</p>
+          <p>Proposals must be double-spaced and 12-point font. A smaller font is allowed in footnotes and endnotes, and there are no specific formatting requirements for tables.</p>
+          <p>Proposals that exceed these limits will be returned for editing.</p>
+          </details>
+          <details>
+            <summary>What language should I use to write the proposal?</summary>
+          <p>You may write your proposal in French or in English. Note, however, that the proposed survey items themselves must be provided in French (see below).</p>
+          </details>
+          <details>
+            <summary>Do I need to provide a version of my proposed questionnaire in French?</summary>
+          <p>Yes. The wording of all proposed survey items should be provided in French, as the questionnaire will be fielded in French. If French is not your first language and you would welcome feedback on item wording, you can mention it in the application.</p>
+          </details>
+          <details>
+            <summary>Do I need to provide a version of my proposed questionnaire in English?</summary>
+          <p>No. Only the French version of your questionnaire is required; an English version is optional.</p>
+          </details>
+        </section>
+        <section class="faq-group" id="submitting">
+          <h2>Deadlines, submission, and decisions</h2>
+          <details>
+            <summary>What is the deadline to apply?</summary>
+          <p>Applications will be considered on a rolling basis. We will not accept any new application past the December 31, 2026 deadline.</p>
+          </details>
+          <details>
+            <summary>How do I submit a proposal?</summary>
+          <p>All information is available <a href="how-to-submit.html">here</a>.</p>
+          </details>
+          <details>
+            <summary>How will decisions be made?</summary>
+          <p>Given the short timeline, decisions will be made collectively by the core research team. When the team lacks the relevant substantive or methodological expertise, it will seek input from external experts.</p>
+          <p>The main selection criterion will be the amount of scientific knowledge a proposal is expected to generate relative to the survey time it requires. In other words, priority will be given to proposals that make the most efficient use of limited questionnaire space.</p>
+          <p>This is not a competition; we will not be designating winners or losers, nor issuing acceptances or rejections as a journal would. It is always challenging for the core research team to prioritize the ideas you present: there are far too many good suggestions for us to field. We regard all input as valuable, regardless of the final decisions about what we have space to include on the pilot questionnaire. And while we will not have time to provide feedback on specific suggestions, we may follow up in some cases if we have further questions or can suggest easy amendments to the proposal that could make it more feasible or efficient.</p>
+          </details>
+          <details>
+            <summary>What happens if my proposal is not included in the final survey?</summary>
+          <p>You will receive a notification email in late February at the latest.</p>
+          </details>
+        </section>
+        <section class="faq-group" id="design">
+          <h2>Survey design</h2>
+          <details>
+            <summary>Can my items be asked more than once?</summary>
+          <p>Yes. Items may be repeated across survey waves when the research design includes a pre&ndash;post election component or another longitudinal dimension.</p>
+          </details>
+          <details>
+            <summary>Can I do randomized block designs?</summary>
+          <p>Yes. In a randomized block design, randomization is done within categories of a variable and can improve the efficiency (power) of a study. Blocking can be done on profile variables that have been in the baseline wave.</p>
+          </details>
+          <details>
+            <summary>What if I want to use an open-ended prompt?</summary>
+          <p>We do not prohibit proposals that include open-ended questions. However, because open-ended items typically require more survey time, this additional burden will be taken into account when evaluating the proposal.</p>
+          </details>
+          <details>
+            <summary>Can I obtain geo-coded variables? Can I tailor the information a participant receives based on where they are located?</summary>
+          <p>Maybe! We will add more information on geo-coded variables soon. The main concern is ensuring that the data collected remains anonymous.</p>
+          </details>
+          <details>
+            <summary>Can I conduct an endowment experiment?</summary>
+          <p>No. ELECTRANS cannot accommodate endowment experiments, in which participants receive a real-stakes reward such as a payment in real money.</p>
+          </details>
+          <details>
+            <summary>Is it possible to do follow-up in-depth/qualitative interviews with some participants?</summary>
+          <p>No. ELECTRANS cannot arrange follow-up in-depth or qualitative interviews with survey participants.</p>
+          </details>
+        </section>
+        <section class="faq-group" id="ethics">
+          <h2>Ethics and consent</h2>
+          <details>
+            <summary>Do you require IRB approval?</summary>
+          <p>ELECTRANS does not require IRB approval as a condition for a proposal to be reviewed and accepted. However, we will assess whether the proposed research is ethically appropriate and consistent with standard social-science research norms, as well as with the technical, legal, ethical, and data-protection requirements governing the ELECTRANS surveys.</p>
+          <p>If your institution requires IRB or ethics approval, you should obtain it in accordance with your institution&rsquo;s procedures. Acceptance by ELECTRANS does not constitute ethical approval: the ELECTRANS team is not an ethics review board.</p>
+          </details>
+          <details>
+            <summary>Does my study need a consent form?</summary>
+          <p>No, you don&rsquo;t need your own consent form because Ipsos panel members have already given their consent to participate in ELECTRANS. If your IRB expects you to include a consent statement, please email us for a screenshot of the web page for panelists who join online and links to the Privacy Policy and Terms and Conditions.</p>
+          </details>
+        </section>
+        </div>
+      </div>
+
+    </div>
+  </main>
+
+  <footer>
+    <div class="container">
+      <p>ELECTRANS &middot; Funded by the French National Research Agency (ANR)</p>
+      <p><a href="faq.html">FAQ</a><a href="contact.html">Contact Us</a></p>
+    </div>
+  </footer>
+</body>
+</html>
